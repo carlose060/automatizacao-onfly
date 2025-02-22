@@ -1,0 +1,5 @@
+{
+    "url_api" : "https://random-data-api.com/api/v2/users?size=1",
+    "url_tarefa01" : "https://onfly-rpa-forms-62njbv2kbq-uc.a.run.app/",
+    "url_tarefa02" : "https://www.selenium.dev/selenium/docs/api/javascript/"
+}

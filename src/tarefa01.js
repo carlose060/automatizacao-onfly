@@ -5,6 +5,25 @@ const config = require('../configs/config.json');
 
 
 async function preencher_forms(dados) {
+    /*
+        Função responsavel por instanciar o objeto do Selenium e preencher os forms da tarefa 01.
+        É utlizados os metodos findElement, sendKeys e click para preencher os campos e enviar o formulario.
+        Além disso, é utilizado o metodo sleep para aguardar o carregamento da pagina.
+        *
+        * @param {Object} dados - Objeto contendo os dados do usuário.
+        * @param {string} dados.nome - Nome fictícios da pessoa.
+        * @param {string} dados.endereco - Endereço fictícios.
+        * @param {string} dados.cidade - Cidade.
+        * @param {string} dados.estado - Estado.
+        * @param {string} dados.cep - CEP.
+        * @param {string} dados.telefone - Telefone.
+        * @param {string} dados.email - Email.
+        * @param {string} dados.numero_cartao - Número do cartão de credito.
+        * @param {string} dados.validade_cartao - Validade do cartão.
+        * @param {string} dados.cvv - Código de segurança do cartão.
+        * 
+        * @returns {boolean} Retorna `true` se o formulario for preenchido corretamente `false` caso ocorra erro de execução.
+    */
     let driver = new Builder().forBrowser('firefox').build();
 
     try {

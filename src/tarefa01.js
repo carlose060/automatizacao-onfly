@@ -11,8 +11,8 @@ async function preencher_forms(dados) {
         Além disso, é utilizado o metodo sleep para aguardar o carregamento da pagina.
         *
         * @param {Object} dados - Objeto contendo os dados do usuário.
-        * @param {string} dados.nome - Nome fictícios da pessoa.
-        * @param {string} dados.endereco - Endereço fictícios.
+        * @param {string} dados.nome - Nome fictício da pessoa.
+        * @param {string} dados.endereco - Endereço fictício.
         * @param {string} dados.cidade - Cidade.
         * @param {string} dados.estado - Estado.
         * @param {string} dados.cep - CEP.

@@ -22,7 +22,7 @@ Para a segunda tarefa, após localizar todos os elementos utilizando o método `
 Visando a organização e modularização foi criado dois arquivos de extensão .js auxiliares `api.js` e `utilitarios.js` e um arquivo para cada tarefa `tarefa01.js` e `tarefa02.js`, além disso um arquivo json com configurações de ambiente `config.json`.
 
 
-- `api.js` contém o trecho de código necessário para se comunicação com API e tratamento dos dados.
+- `api.js` contém o trecho de código necessário para comunicação com a API e tratamento dos dados.
 - `utilitarios.js` contém todas as expressões regulares usadas para validar os dados e uma função de `sleep()` para pausa o programa por alguns segundos.
 - `tarefa01.js` e `tarefa02.js` os respectivos desafios propostos.
 - `config.json` arquivo auxiliar trazendo informações sensíveis, como urls, API e tokens.

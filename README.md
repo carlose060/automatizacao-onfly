@@ -23,7 +23,7 @@ Visando a organização e modularização foi criado dois arquivos de extensão 
 
 
 - `api.js` contém o trecho de código necessário para comunicação com a API e tratamento dos dados.
-- `utilitarios.js` contém todas as expressões regulares usadas para validar os dados e uma função de `sleep()` para pausa o programa por alguns segundos.
+- `utilitarios.js` contém todas as expressões regulares usadas para validar os dados e uma função de `sleep()` para pausar o programa por alguns segundos.
 - `tarefa01.js` e `tarefa02.js` os respectivos desafios propostos.
 - `config.json` arquivo auxiliar trazendo informações sensíveis, como urls, API e tokens.
 

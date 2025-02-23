@@ -13,8 +13,8 @@
  - [x] Conseguir dados realistas: Fazer uma comunicação com uma API para fornecer os dados realistas e aleatórios. 
 
 ## ⭐ Resolvendo o problema
-O Primeiro passo é conseguir consumir os dados de uma API, e para isso utilizo uma requisição HTTP com `fetch`. Com isso, utilizo algumas expressões regulares para validar os campos de CEP, telefone, cartão, devido ao fato da API não ser com dados fictícios Brasileiros, além disso, utilizo também uma expressão regular para validar o email, que foi proposto no desafio.
-Quando todos os dados estão devidamente tratados, utilizo a biblioteca Selenium no JavaScript para preencher e enviar o formulário. Utilizo um fluxo com `Try e Catch` de forma que, caso aconteça algum inesperado erro na primeira tentativa de execução, o programa executa novamente. Para encontrar todos os campos e botões necessários para preencher e enviar o formulário, utilizo o método `findElement()` e procuro os elementos pelo seu Xpath.
+O Primeiro passo é conseguir consumir os dados de uma API, e para isso utilizo uma requisição HTTP com `fetch`. Com isso, utilizo algumas expressões regulares para validar os campos de CEP, telefone e cartão, devido ao fato da API não ser com dados fictícios Brasileiros, além disso, utilizo também uma expressão regular para validar o email, que foi proposto no desafio.
+Quando todos os dados estão devidamente tratados, utilizo a biblioteca Selenium no JavaScript para preencher e enviar o formulário. Utilizo um fluxo com `Try e Catch` de forma que, caso aconteça algum erro inesperado na primeira tentativa de execução, o programa executa novamente. Para encontrar todos os campos e botões necessários para preencher e enviar o formulário, utilizo o método `findElement()` e procuro os elementos pelo seu Xpath.
 Para a segunda tarefa, após localizar todos os elementos utilizando o método `findElements()`, é necessário executar um script no navegador para alterar todos os campos, o atributo `innetText` é o responsável por alterar o campo de texto visível.
 
 
@@ -31,7 +31,6 @@ Visando a organização e modularização foi criado dois arquivos de extensão 
 
 ## 💻 Pré-requisitos
 
-Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 - Necessário `node v18 ou superior`
 - Bibliotecas necessárias `selenium-webdriver e geckodriver`.
